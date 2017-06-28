@@ -1,0 +1,13 @@
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/json-2.0.1/ext/json
+/Users/tringo/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170628-63073-1r2e16i.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/json-2.0.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/json-2.0.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/json-2.0.1/ext/json
+make "DESTDIR=" install

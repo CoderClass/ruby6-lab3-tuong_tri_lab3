@@ -1,0 +1,16 @@
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+/Users/tringo/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170628-63073-adn8oi.rb extconf.rb
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/tringo/Documents/Projects/Rails/ruby_lab3/vendor/gems/binding_of_caller-0.7.2/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
