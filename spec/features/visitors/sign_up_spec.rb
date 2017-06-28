@@ -28,7 +28,7 @@ feature 'Sign Up', :devise do
   #   When I sign up without a password
   #   Then I see a missing password message
   scenario 'visitor cannot sign up without password' do
-    sign_up_with('test@example.com', '', '')
+    sign_up_with('test@example.com', '   ', '12')
     expect(page).to have_content "Password can't be blank"
   end
 
@@ -37,7 +37,7 @@ feature 'Sign Up', :devise do
   #   When I sign up with a short password
   #   Then I see a 'too short password' message
   scenario 'visitor cannot sign up with a short password' do
-    sign_up_with('test@example.com', 'please', 'please')
+    sign_up_with('test@example.com', '12', '12')
     expect(page).to have_content "Password is too short"
   end
 
@@ -55,7 +55,7 @@ feature 'Sign Up', :devise do
   #   When I sign up with a mismatched password confirmation
   #   Then I should see a mismatched password message
   scenario 'visitor cannot sign up with mismatched password and confirmation' do
-    sign_up_with('test@example.com', 'please123', 'mismatch')
+    sign_up_with('test@example.com', 'please123', 'pleasdafe123')
     expect(page).to have_content "Password confirmation doesn't match"
   end
 
